@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AdminDreamstarsSHG</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login hints -->
+    <string name="uname">User Name</string>
+    <string name="lpass">Password</string>
+    <string name="btnlog">Login</string>
+    <string name="desc">sign up</string>
+
+    <!-- Start hints -->
+    <string name="bviewc">Contribution</string>
+    <string name="bachieve">Achievements</string>
+    <string name="brules">Constitution</string>
+    <string name="bmembers">Members</string>
+
+    <!-- SelectAchievement hints -->
+    <string name="bAddAchiev">Add Achievements</string>
+    <string name="bViewAchiev">View Achievements</string>
+
+
+    <!-- SelectContribution hints -->
+    <string name="bAddContrib">Add Contribution</string>
+    <string name="bViewContrib">View Contribution</string>
+
+    <!-- Save Contribution hints -->
+    <string name="bSaveContrib">Save Contribution</string>
+
+    <!-- Save Achievement hints -->
+    <string name="bSaveAchieve">Save Achievement</string>
+
+    <!-- Edit Member hints -->
+    <string name="btneditmember">Save Changes</string>
+
+
+</resources>

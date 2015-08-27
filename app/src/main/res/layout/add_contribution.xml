@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/plain"
+        >
+
+        <!--  Header  Starts-->
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/header"
+
+            android:id="@+id/linearLayout">
+
+            <!-- Name Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Member Name"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input Name -->
+            <EditText android:id="@+id/inputName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"/>
+
+            <!-- Amount Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input Amount -->
+            <EditText android:id="@+id/inputAmount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"
+                android:inputType="numberDecimal"/>
+
+            <!-- Fine Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Fine"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input Fine -->
+            <EditText android:id="@+id/inputFine"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"
+                android:inputType="numberDecimal"/>
+
+            <!-- Date Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Contribution Date"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input Date -->
+            <EditText android:id="@+id/inputDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"
+                android:inputType="date"/>
+
+            <!--  Constitution Button -->
+            <Button
+                android:layout_width="291dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bSaveContrib"
+                android:id="@+id/btnadd_contribution"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="76dp"
+                android:background="@layout/button"
+                android:drawableLeft="@drawable/save"
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

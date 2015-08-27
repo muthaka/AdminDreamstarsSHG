@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dreamstars.muthaka.com.admindreamstarsshg" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Achievement Activity -->
+        <activity
+            android:name=".Achievement"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Add Achievement Activity -->
+        <activity
+            android:name=".AddAchievement"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Add Contribution Activity -->
+        <activity
+            android:name=".AddContribution"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Constitution Activity -->
+        <activity
+            android:name=".Constitution"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Contribution Activity -->
+        <activity
+            android:name=".Contribution"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Edit Achievement Activity -->
+        <activity
+            android:name=".EditAchievement"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Edit Contribution Activity -->
+        <activity
+            android:name=".EditContribution"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Edit Member Activity -->
+        <activity
+            android:name=".EditMembers"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Members Activity -->
+        <activity
+            android:name=".Members"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Select Achievement Activity -->
+        <activity
+            android:name=".SelectAchievement"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Select Contribution Activity -->
+        <activity
+            android:name=".SelectContribution"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Start Activity -->
+        <activity
+            android:name=".Start"
+            android:label="Edit Product" >
+        </activity>
+    </application>
+
+    <!--  Network Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--  Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

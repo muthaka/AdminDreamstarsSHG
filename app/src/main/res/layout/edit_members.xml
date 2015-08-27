@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/plain"
+        >
+
+        <!--  Header  Starts-->
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/header"
+
+            android:id="@+id/ToplinearLayout">
+
+            <!-- Name Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Member Name"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input Name -->
+            <EditText android:id="@+id/inputName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"/>
+
+            <!-- ID Number Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="National ID"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input National ID -->
+            <EditText android:id="@+id/inputId"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"
+                android:inputType="number"/>
+
+            <!-- Phone Number Label -->
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:textSize="17dip"/>
+
+            <!-- Input Phone Number -->
+            <EditText android:id="@+id/inputPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:singleLine="true"
+                android:inputType="phone"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ToplinearLayout"
+            android:orientation="horizontal">
+            <!-- Button Create Product -->
+            <Button android:id="@+id/btnSave_member"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Changes"
+                android:layout_weight="1"/>
+
+            <!-- Button Create Product -->
+            <Button android:id="@+id/btnDelete_member"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

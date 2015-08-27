@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="@drawable/back"
+        >
+
+        <!--  Header  Starts-->
+        <LinearLayout android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/header"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:weightSum="1">
+            <!-- Logo Start-->
+            <ImageView
+                android:src="@drawable/bg"
+                android:contentDescription="@string/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dip"
+                android:layout_marginRight="1dip"/>
+            <!-- Logo Ends -->
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:layout_below="@id/header"
+
+            android:id="@+id/linearLayout">
+
+            <!-- Contribution Button -->
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bviewc"
+                android:id="@+id/start_contribution"
+                android:layout_marginBottom="45dp"
+                android:layout_above="@+id/start_achiev"
+                android:layout_alignLeft="@+id/start_constitution"
+                android:layout_alignStart="@+id/start_constitution"
+                android:background="@layout/button"
+                android:drawableLeft="@drawable/signup_icon"
+                android:layout_gravity="center_horizontal" />
+
+            <!--  Achievement Button -->
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bachieve"
+                android:id="@+id/start_achiev"
+                android:layout_above="@+id/start_constitution"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="44dp"
+                android:background="@layout/button"
+                android:drawableLeft="@drawable/login_icon"
+                android:layout_gravity="center_horizontal" />
+
+
+            <!-- Members Button -->
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bmembers"
+                android:id="@+id/start_members"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/start_achiev"
+                android:layout_alignEnd="@+id/start_achiev"
+                android:layout_marginBottom="76dp"
+                android:background="@layout/button"
+                android:drawableLeft="@drawable/about_icon"
+                android:layout_gravity="center_horizontal" />
+
+            <!--  Constitution Button -->
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/brules"
+                android:id="@+id/start_constitution"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/start_achiev"
+                android:layout_alignEnd="@+id/start_achiev"
+                android:layout_marginBottom="76dp"
+                android:background="@layout/button"
+                android:drawableLeft="@drawable/about_icon"
+                android:layout_gravity="center_horizontal" />
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
